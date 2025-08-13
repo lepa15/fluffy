@@ -118,3 +118,21 @@ body {
     font-size: 17px;
     color: rgba(6, 23, 44, 0.6);
 }
+
+
+.cards-block__container {
+    margin-top: 34px;
+}
+
+.cards-block__card {
+    border-radius: 24px;
+    display: flex;
+    align-items: start;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.12);
+    background: #fff;
+}
+
+юcards-block__card-img {
+    width: 100%;
+    object-fit: contain;
+}
