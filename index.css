@@ -45,15 +45,13 @@ body {
     height: 100%;
     color: #06172c;
     background: #faf6f6;
-
-    font-family: Poppins, serif;
+    font-family: Poppins, sans-serifы;
     font-size: 16px;
     font-weight: 400;
     line-height: 1;
 
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.12);
 }
-
 
 .wrapper-block {
     border-radius: 24px;
@@ -72,7 +70,6 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
-
 
 /*===========Header============*/
 .header-block__container {
@@ -118,7 +115,6 @@ body {
     color: rgba(6, 23, 44, 0.6);
 }
 
-
 .cards-block__container {
     margin-top: 34px;
 }
@@ -126,20 +122,36 @@ body {
 .cards-block__card {
     border-radius: 24px;
     display: flex;
-
-
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.12);
     background: #fff;
+    overflow: hidden;
+    height: 134px;
 }
 
 .cards-block__card-img {
-
+    flex: 0 0 auto;      /* не растягиваем по ширине */
+    height: 100%;
+    aspect-ratio: 1 / 1;
 }
 
+.cards-block__card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cards-block__card-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px;
+}
 .cards-block__card-text {
     display: flex;
     flex-direction: column;
-    padding: 16px;
+    justify-content: space-between;
     font-weight: 600;
     font-size: 22px;
 }
@@ -178,4 +190,15 @@ body {
     flex-shrink: 0;
     width: 16px;
     height: 17px;
+}
+
+.cards-block__like-button {
+    width: 16px;
+    height: 16px;
+}
+
+.cards-block__like-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
