@@ -119,9 +119,20 @@ body {
     margin-top: 34px;
 }
 
-.cards-block__container .cards-block__card:not(:first-child) {
+.cards-block__container .cards-block__card-link:not(:first-child) {
+    display: block;
     margin-top: 24px;
+}
 
+.cards-block__card-link {
+    display: block;
+    border: 2px solid transparent; /* изначально рамка невидимая */
+    border-radius: 24px;
+    transition: border-color 0.3s ease;
+}
+
+.cards-block__card-link:hover {
+    border-color: #00BFFF;
 }
 
 .cards-block__card {
@@ -164,6 +175,12 @@ body {
 .cards-block__card-title {
     display: flex;
     column-gap: 9px;
+}
+
+.cards-block__card-name {
+    font-weight: 600;
+    font-size: 22px;
+    color: #06172c;
 }
 
 .girl  {
