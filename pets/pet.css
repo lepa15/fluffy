@@ -89,7 +89,7 @@ button {
     border-radius: 24px;
 }
 
-/*.header-block__image-nav {
+.header-block__image-nav {
     position: absolute;
     top: 16px;
     left: 0;
@@ -104,7 +104,7 @@ button {
     display: block;
     width: 24px;
     height: 24px;
-}*/
+}
 
 
 
