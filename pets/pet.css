@@ -111,6 +111,12 @@ button {
     margin-top: 15px;
 }
 
+.main-block__title-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .main-block__title-wrap {
     display: flex;
     column-gap: 15px;
@@ -137,11 +143,28 @@ button {
 }
 
 .main-block__title-about {
-    margin-top: 8px;
+    margin-top: 14px;
     font-weight: 400;
     font-size: 16px;
     color: rgba(6, 23, 44, 0.6);
 }
 
+.main-block__title-location {
+    display: flex;
+    column-gap: 6px;
+    align-items: center;
+}
 
+.main-block__location-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+}
+
+.main-block__location-icon svg {
+    width: 12px;
+    height: 14px;
+}
 
