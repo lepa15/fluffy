@@ -106,5 +106,42 @@ button {
     height: 24px;
 }
 
+/*==========MAIN===========*/
+.main-block__container {
+    margin-top: 15px;
+}
+
+.main-block__title-wrap {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.main-block__title-name {
+    font-weight: 600;
+    font-size: 26px;
+    color: #06172c;
+}
+
+.main-block__title-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-block__title-icon svg {
+    width: 14px;
+    height: 15px;
+}
+
+.main-block__title-about {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(6, 23, 44, 0.6);
+}
+
 
 
