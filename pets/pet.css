@@ -168,3 +168,34 @@ button {
     height: 14px;
 }
 
+.main-block__info-block {
+    margin-top: 16px;
+    display: flex;
+    padding: 0 3px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-block__item {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 4px;
+    width: 76px;
+    height: 64px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #06172c;
+    background: #ebedef;
+}
+
+.info-block__item-title {
+    font-weight: 600;
+}
+
+.info-block__item-description {
+    font-weight: 400;
+}
