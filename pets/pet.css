@@ -214,3 +214,43 @@ button {
 .about-block__description span {
     color: #ff1c7b;
 }
+
+.footer-block {
+    margin-top: 30px;
+}
+
+.footer-block__container {
+    display: flex;
+    column-gap: 14px;
+}
+
+.footer-block__button-wrapper {
+    border-radius: 8px;
+    padding: 12px 10px;
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.share {
+    flex: 1;
+
+    color: #06172c;
+    background: #ebedef;
+}
+
+.take-home {
+    flex: 2;
+
+    color: #fff;
+    background: #ff1c7b;
+}
+
+.footer-block__button-wrapper svg {
+    width: 20px;
+    height: 20px;
+}
+
