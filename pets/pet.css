@@ -199,3 +199,18 @@ button {
 .info-block__item-description {
     font-weight: 400;
 }
+
+.main-block__about-block {
+    margin-top: 30px;
+}
+
+.about-block__description {
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: -0.01em;
+    color: #06172c;
+}
+
+.about-block__description span {
+    color: #ff1c7b;
+}
